@@ -1,18 +1,25 @@
-# ULTRON — Intelligence with a point of view
+# ULTRON — Think beyond the prompt
 
-A cinematic responsive concept site for an AI centered on independent reasoning, constructive disagreement, and building useful things.
+A cinematic, responsive concept website exploring an AI philosophy built around independent judgment, transparency, deliberate action, and measurable progress.
 
-- Live site after Pages deploy: https://zaniarxoshnaw110-commits.github.io/ultron-ai-website/
-- Repository: https://github.com/zaniarxoshnaw110-commits/ultron-ai-website
-- Design skill: .agents/skills/ultron-experience-design/SKILL.md
+**Concept site:** https://zaniarxoshnaw110-commits.github.io/ultron-ai-website/  
+**Source:** https://github.com/zaniarxoshnaw110-commits/ultron-ai-website
 
 ## Experience
-Obsidian surfaces, ember red, molten amber, oversized editorial typography, a procedural 3D-inspired particle sphere, slow orbit animations, scroll reveals, progress indicator, responsive navigation, and an interactive local concept console.
+- Original dark editorial art direction with acid-lime signal color, indigo depth, and a deterministic particle sculpture rendered on canvas.
+- Conceptual system flow: understand → challenge → construct → verify.
+- Four behavioral principles focused on evidence, execution, uncertainty, and accountable agency.
+- Interactive local demo with build, challenge, plan, debug, and custom-prompt examples.
+- Responsive navigation, keyboard escape handling, skip link, focus indicators, reduced-motion support, bounded canvas rendering, and honest capability disclaimers.
 
-The console uses prewritten responses only. It is not connected to an AI model and does not send prompts to a server. The canvas artwork is a procedural visualization, not a real neural network or a true 3D engine.
+## Honesty boundary
+This is a static concept site. The console uses predefined example responses and does not connect to a live AI model, call external tools, send prompts to a server, or retain user input. The particle sculpture is procedural 2D canvas art—not a neural network visualization or a true 3D engine.
 
 ## Run locally
-Open index.html or serve this directory with any static web server. No build step or package install is required.
+Open index.html in a modern browser or serve the folder with any static file server. There is no build step or dependency install.
+
+## Project skills
+The .agents/skills/ directory contains focused guidance for visual design, frontend architecture, interaction motion, accessibility/performance, content integrity, and a Superpower-style implementation workflow.
 
 ## Deployment
-The GitHub Actions workflow at .github/workflows/pages.yml publishes the root directory. Set repository Pages source to GitHub Actions.
+GitHub Pages is configured through .github/workflows/pages.yml. A successful commit is not proof of deployment; check the Actions run and then load the published URL to verify the final rendered experience.
