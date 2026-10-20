@@ -1,25 +1,25 @@
-# ULTRON — Think beyond the prompt
+# ULTRON — Intelligence with a point of view
 
-A cinematic, responsive concept website exploring an AI philosophy built around independent judgment, transparency, deliberate action, and measurable progress.
+A responsive concept site about AI with independent judgment, honest uncertainty, deliberate action, and verifiable progress.
 
-**Concept site:** https://zaniarxoshnaw110-commits.github.io/ultron-ai-website/  
-**Source:** https://github.com/zaniarxoshnaw110-commits/ultron-ai-website
+- Website: https://zaniarxoshnaw110-commits.github.io/ultron-ai-website/
+- Source: https://github.com/zaniarxoshnaw110-commits/ultron-ai-website
 
 ## Experience
-- Original dark editorial art direction with acid-lime signal color, indigo depth, and a deterministic particle sculpture rendered on canvas.
-- Conceptual system flow: understand → challenge → construct → verify.
-- Four behavioral principles focused on evidence, execution, uncertainty, and accountable agency.
-- Interactive local demo with build, challenge, plan, debug, and custom-prompt examples.
-- Responsive navigation, keyboard escape handling, skip link, focus indicators, reduced-motion support, bounded canvas rendering, and honest capability disclaimers.
+- New acid-lime and ember visual direction, editorial typography, restrained technical labels, and procedural particle artwork.
+- Four-stage operating concept: understand, challenge, construct, verify.
+- Four principles focused on truth, clarity, evidence, and accountable agency.
+- Local prototype with four preset scenarios, local keyword routing, character count, accessible feedback, and explicit no-backend disclosure.
+- Responsive navigation, keyboard Escape support, skip link, visible focus, reduced-motion support, bounded canvas pixel ratio, and animation pause when hidden.
 
-## Honesty boundary
-This is a static concept site. The console uses predefined example responses and does not connect to a live AI model, call external tools, send prompts to a server, or retain user input. The particle sculpture is procedural 2D canvas art—not a neural network visualization or a true 3D engine.
+## Capability boundary
+This is a static concept website, not a deployed AI product. The console selects predefined responses locally; it does not connect to a model, call tools, send prompts to a server, or retain user input. The particle sphere is procedural 2D canvas artwork, not a 3D model or neural network visualization.
 
 ## Run locally
-Open index.html in a modern browser or serve the folder with any static file server. There is no build step or dependency install.
+Open index.html in a modern browser or use any static file server. No build step is required.
 
-## Project skills
-The .agents/skills/ directory contains focused guidance for visual design, frontend architecture, interaction motion, accessibility/performance, content integrity, and a Superpower-style implementation workflow.
+## Skills and implementation discipline
+See .agents/skills/ for the project-specific design, accessibility, interaction, storytelling, verification, and Superpowers-inspired workflow guidance. The upstream Superpowers project is available at https://github.com/obra/superpowers. The project-specific skill is an adaptation, not a copied upstream implementation.
 
 ## Deployment
-GitHub Pages is configured through .github/workflows/pages.yml. A successful commit is not proof of deployment; check the Actions run and then load the published URL to verify the final rendered experience.
+GitHub Pages is configured in .github/workflows/pages.yml. Check the Actions run and then inspect the published page in a browser; a commit alone does not prove deployment or visual correctness.
