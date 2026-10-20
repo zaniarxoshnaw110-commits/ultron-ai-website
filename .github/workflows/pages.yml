@@ -19,19 +19,21 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
-      - name: Validate required files
+      - name: Validate required files and scroll experience
         run: |
           test -s index.html
           test -s styles.css
           test -s script.js
+          test -s .agents/skills/scroll-driven-3d/SKILL.md
           grep -q 'id="core"' index.html
+          grep -q 'id="journey-core"' index.html
+          grep -q 'id="experience"' index.html
           grep -q 'id="lab"' index.html
           grep -q 'prefers-reduced-motion' styles.css
           grep -q 'NO LIVE AI BACKEND' index.html
+          grep -q 'Scroll-cinematic 3D study' script.js
           node --check script.js
       - uses: actions/upload-pages-artifact@v3
         with:
           path: .
-      - name: Deploy website
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - uses: actions/deploy-pages@v4

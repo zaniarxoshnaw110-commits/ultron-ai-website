@@ -28,3 +28,4 @@ Use the Superpowers method as a working discipline, not as a claim of affiliatio
 - Keep the static site dependency-light and content readable without JavaScript.
 - Respect keyboard use, touch, zoom, and prefers-reduced-motion.
 - Treat a commit, a successful deployment, and a live visual inspection as separate evidence.
+- .agents/skills/scroll-driven-3d/SKILL.md — scroll-scrubbed perspective, geometry, accessibility, and rendering budget.
