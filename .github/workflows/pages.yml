@@ -28,6 +28,7 @@ jobs:
           grep -q 'id="lab"' index.html
           grep -q 'prefers-reduced-motion' styles.css
           grep -q 'NO AI BACKEND CONNECTED' index.html
+          node --check script.js
       - uses: actions/upload-pages-artifact@v3
         with:
           path: .
